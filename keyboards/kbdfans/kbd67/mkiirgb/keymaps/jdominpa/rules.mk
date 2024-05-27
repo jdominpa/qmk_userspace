@@ -11,6 +11,9 @@ COMMAND_ENABLE = no
 # Caps word
 CAPS_WORD_ENABLE = yes
 
+# Combos
+COMBO_ENABLE = yes
+
 # Disable RGB
 RGBLIGHT_ENABLE = no
 RGB_MATRIX_ENABLE = no

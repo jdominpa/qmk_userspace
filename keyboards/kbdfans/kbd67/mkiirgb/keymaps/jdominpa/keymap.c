@@ -11,7 +11,16 @@
 enum layers {
     DEF,
     NAV,
-	GAME,
+    GAME,
+};
+
+enum combos {
+    CAPS_WORD,
+};
+
+const uint16_t PROGMEM caps_word_combo[] = {KC_U, KC_I, KC_O, COMBO_END};
+combo_t key_combos[] = {
+    [CAPS_WORD] = COMBO(caps_word_combo, QK_CAPS_WORD_TOGGLE),
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
