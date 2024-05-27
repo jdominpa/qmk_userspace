@@ -32,16 +32,16 @@ layers:
   - \
   - ''
   - ESC
-  - {t: A, h: LGUI}
-  - {t: S, h: LALT}
-  - {t: D, h: LCTL}
-  - {t: F, h: LSFT}
+  - A
+  - {t: S, h: LGUI}
+  - {t: D, h: LALT}
+  - {t: F, h: LCTL}
   - G
   - H
-  - {t: J, h: RSFT}
-  - {t: K, h: RCTL}
-  - {t: L, h: RALT}
-  - {t: ;, h: RGUI}
+  - {t: J, h: RCTL}
+  - {t: K, h: RALT}
+  - {t: L, h: RGUI}
+  - ;
   - ''''
   - ENT
   - {t: L2, h: toggle}
@@ -87,8 +87,8 @@ layers:
   - ''
   - TAB
   - WSCH
-  - WBAK
-  - WFWD
+  - TAB_L
+  - TAB_R
   - VOLU
   - PGUP
   - HOME
@@ -100,10 +100,10 @@ layers:
   - ''
   - ''
   - ''
+  - {t: LSFT, h: sticky}
   - {t: LGUI, h: sticky}
   - {t: LALT, h: sticky}
   - {t: LCTL, h: sticky}
-  - {t: LSFT, h: sticky}
   - VOLD
   - PGDN
   - LEFT
