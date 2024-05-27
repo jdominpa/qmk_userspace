@@ -119,10 +119,10 @@ layers:
   - MPLY
   - MNXT
   - MSTP
-  - UNDO
-  - CUT
-  - COPY
   - PSTE
+  - COPY
+  - CUT
+  - UNDO
   - ENT
   - ''
   - ''
@@ -131,7 +131,7 @@ layers:
   - ''
   - ''
   - {type: held}
-  - ''  
+  - ''
   - ''
   - ''
   - ''

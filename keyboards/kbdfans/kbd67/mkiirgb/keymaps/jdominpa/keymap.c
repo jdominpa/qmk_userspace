@@ -29,7 +29,7 @@ enum combos {
     CAPS_WORD,
 };
 
-const uint16_t PROGMEM caps_word_combo[] = {KC_J, KC_K, KC_L, COMBO_END};
+const uint16_t PROGMEM caps_word_combo[] = {RCTL_T(KC_J), RALT_T(KC_K), RGUI_T(KC_L), COMBO_END};
 combo_t key_combos[] = {
     [CAPS_WORD] = COMBO(caps_word_combo, QK_CAPS_WORD_TOGGLE),
 };
@@ -46,7 +46,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  QK_BOOT,
 		XXXXXXX,  KC_TAB,   KC_WSCH,  TAB_L,    TAB_R,    KC_VOLU,  KC_PGUP,  KC_HOME,  KC_UP,    KC_END,   KC_DEL,   XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,
 		XXXXXXX,  OS_SHFT,  OS_GUI,   OS_ALT,   OS_CTRL,  KC_VOLD,  KC_PGDN,  KC_LEFT,  KC_DOWN,  KC_RGHT,  KC_BSPC,  XXXXXXX,            XXXXXXX,  XXXXXXX,
-		XXXXXXX,  KC_MUTE,  KC_MPRV,  KC_MPLY,  KC_MNXT,  KC_MSTP,  UNDO,     CUT,      COPY,     PSTE,     KC_ENT,   XXXXXXX,            XXXXXXX,  XXXXXXX,
+		XXXXXXX,  KC_MUTE,  KC_MPRV,  KC_MPLY,  KC_MNXT,  KC_MSTP,  PSTE,     COPY,     CUT,      UNDO,     KC_ENT,   XXXXXXX,            XXXXXXX,  XXXXXXX,
 		XXXXXXX,  XXXXXXX,  XXXXXXX,                      XXXXXXX,                      XXXXXXX,            XXXXXXX,  XXXXXXX,            XXXXXXX,  XXXXXXX),
 
 	[GAME] = LAYOUT_65_ansi_blocker( /* Gaming */
