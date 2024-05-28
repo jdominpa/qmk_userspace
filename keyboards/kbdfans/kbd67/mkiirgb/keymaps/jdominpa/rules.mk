@@ -12,7 +12,7 @@ COMMAND_ENABLE = no
 CAPS_WORD_ENABLE = yes
 
 # Combos
-COMBO_ENABLE = yes
+COMBO_ENABLE = no
 
 # Disable RGB
 RGBLIGHT_ENABLE = no
