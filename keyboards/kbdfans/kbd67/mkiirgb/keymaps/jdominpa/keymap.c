@@ -22,6 +22,8 @@
 enum layers {
     DEF,
     NAV,
+    SYM,
+    NUM,
     GAME,
 };
 
