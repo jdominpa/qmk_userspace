@@ -11,6 +11,9 @@ COMMAND_ENABLE = no
 # Caps word
 CAPS_WORD_ENABLE = yes
 
+# Tap dance
+TAP_DANCE_ENABLE = no
+
 # Combos
 COMBO_ENABLE = no
 
