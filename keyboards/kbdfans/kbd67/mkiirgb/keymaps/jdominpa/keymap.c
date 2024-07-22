@@ -50,15 +50,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_LSFT,  KC_Z,          KC_X,       KC_C,    KC_V,  KC_B,    KC_N,   KC_M,   KC_COMM,   KC_DOT,   KC_SLSH,  KC_RSFT,           KC_UP,     MO(_RAISE),
 		KC_LCTL,  KC_LGUI,       KC_LALT,                    KC_SPC,                             KC_RALT,  KC_RCTL,  KC_LEFT,           KC_DOWN,   KC_RIGHT),
     
-    /* NOTE: the position of @ symbol can be improved in a keyboard with thumb keys */
+    /* NOTE: the position of the @ symbol can be improved in a keyboard with thumb keys */
 	[_LOWER] = LAYOUT_65_ansi_blocker( /* Lower layer */
 		XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,
 		XXXXXXX,  XXXXXXX,  KC_LCBR,  KC_RCBR,  KC_BSLS,  KC_DLR,   XXXXXXX,  KC_7,     KC_8,     KC_9,     XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,
-		XXXXXXX,  XXXXXXX,  KC_LPRN,  KC_RPRN,  KC_DQUO,  KC_QUOT,  XXXXXXX,  KC_4,     KC_5,     KC_6,     KC_DOT,   XXXXXXX,            XXXXXXX,  XXXXXXX,
+		KC_CAPS,  XXXXXXX,  KC_LPRN,  KC_RPRN,  KC_DQUO,  KC_QUOT,  XXXXXXX,  KC_4,     KC_5,     KC_6,     KC_DOT,   XXXXXXX,            XXXXXXX,  XXXXXXX,
 		OS_SHFT,  KC_AT,    KC_LBRC,  KC_RBRC,  KC_QUES,  KC_GRV,   KC_0,     KC_1,     KC_2,     KC_3,     XXXXXXX,  OS_SHFT,            XXXXXXX,  XXXXXXX,
 		XXXXXXX,  XXXXXXX,  XXXXXXX,                      SYM_SPC,                      XXXXXXX,            XXXXXXX,  XXXXXXX,            XXXXXXX,  XXXXXXX),
 
-    /* NOTE: the position of % symbol can be improved in a keyboard with thumb keys */
+    /* NOTE: the position of the % symbol can be improved in a keyboard with thumb keys */
 	[_RAISE] = LAYOUT_65_ansi_blocker( /* Raise layer */
 		XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,
 		XXXXXXX,  XXXXXXX,  KC_F9,    KC_F8,    KC_F7,    XXXXXXX,  KC_AMPR,  KC_CIRC,  KC_ASTR,  KC_SLASH, XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,
