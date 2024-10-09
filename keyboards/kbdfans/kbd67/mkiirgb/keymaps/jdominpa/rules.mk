@@ -15,7 +15,7 @@ CAPS_WORD_ENABLE = yes
 TAP_DANCE_ENABLE = no
 
 # Combos
-COMBO_ENABLE = yes
+COMBO_ENABLE = no
 
 # Disable RGB
 RGBLIGHT_ENABLE = no
